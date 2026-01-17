@@ -192,3 +192,5 @@ print(f"文明存活概率: {result.survival_probability:.1%}")
 > "文明的关键不再是'谁更强'，而是'谁更能维护共同底盘'。"  
 > —— 让我们成为那些维护者。
 
+## License
+  Licensed under the Apache License, Version 2.0. Copyright 2024 [ZhongXinWang].
