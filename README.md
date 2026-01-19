@@ -1,7 +1,6 @@
 # Civilization Leap: 为人类的“大过滤器”编写补丁
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)  
 
 **从竞争到共生，从稀缺到丰裕，从恐惧到希望。**  
 “我们不是这艘飞船的乘客，我们是船员。” — R. Buckminster Fuller  
