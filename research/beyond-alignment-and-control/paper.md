@@ -4,7 +4,8 @@
 **Professional English Edition V1.1 | Research communication draft**  
 **Author:** Zijun Fu  
 **Civilization Leap Research Group**  
-**Date:** 20 September 2026
+**Date:** 20 September 2026  
+**DOI:** https://doi.org/10.5281/zenodo.22858094
 
 ## Abstract
 
@@ -193,6 +194,12 @@ The paper is an English professional-facing adaptation of the Chinese research g
 The broader Civilization Leap framework preserves several open problems: why revision of the boundary of self-interest occurs; why another agent may retain independent reason-giving weight when all self-regarding backlash is excluded; how early adopters of non-existential, open-boundary logic survive among actors that do not adopt it; how to observe such revision without claiming direct access to hidden inner states; and how an open stable order can remain open to new agents without turning every causally relevant object into a rights-bearing subject.
 
 The writing and layout of this paper were assisted by multiple AI tools. Content selection and final approval remain the author's responsibility.
+
+## Permanent record
+
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.22858094
+
+This DOI identifies the archived Professional English Edition V1.1. The GitHub version remains the living research entry for discussion and future revisions.
 
 ## References
 
