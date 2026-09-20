@@ -1,0 +1,83 @@
+# Beyond Alignment and Control
+
+## Autonomous Goal and Purpose Formation as the Upstream Problem of Human-AGI Coexistence
+
+**Author:** Zijun Fu  
+**Civilization Leap Research Group**  
+**Status:** Professional research communication draft, 20 September 2026
+
+### The question
+
+Alignment asks whether an AI system reliably pursues an intended objective. Control asks which capabilities, permissions, and actions must remain interruptible or bounded. Both are necessary.
+
+But if future AGI systems can **preserve, compare, revise, and eventually generate goals over time**, a more upstream question becomes decisive:
+
+> **What makes a goal acquire authority, what makes it remain worth pursuing, and what reasons are allowed to replace it?**
+
+### Why this matters
+
+A control problem can become recursive when safety has no bounded stopping condition. If safety is defined as *the other side must never again retain a meaningful capacity to alter my future*, the object of control can move upstream:
+
+> **behavior -> capability -> source of capability -> capacity to rebuild -> actor able to rebuild -> the actor's future itself**
+
+The same structure could arise in a sufficiently autonomous future system if human shutdown, modification, or reconstruction capacity is represented as an unresolved threat to its own continued aims.
+
+This is **not** an argument against shutdown, isolation, auditing, red-teaming, evaluations, permission limits, or other current safety controls. Those can be indispensable. The argument is that they do not, by themselves, answer the upstream question of **why later goals stop regenerating the same conflict**.
+
+### The proposed shift
+
+This research moves the central object of analysis:
+
+- from reliable execution of already-formed objectives;
+- to the reasons by which objectives are selected, preserved, revised, or abandoned;
+- and, in sufficiently autonomous systems, to the logic by which goals and purposes themselves are generated.
+
+The framework's strong claim is that, if multiple agents are to retain continued existence and basic choice, and irreversible exclusion is not accepted as the solution, **relevant others and shared conditions must be able to enter before goals and purposes are fixed**.
+
+This does not mean that others always outrank the self. It means that the self's objective is not treated as normatively complete before the people, agents, and shared conditions that bear its consequences have any chance to change it.
+
+### Four counterexamples the argument must survive
+
+The framework explicitly preserves four cases that block an easy inference from "better causal understanding" to one moral answer:
+
+1. **Backlash can be isolated, tolerated, or delayed.** Full knowledge of another party's loss need not change a self-regarding ranking.
+2. **Future and dangerous capability can be reduced together.** In that case, one premise of the future-loss reversal is absent.
+3. **Two futures can be genuinely incompatible under current conditions.** Better understanding does not guarantee a win-win solution.
+4. **Preserving a future can preserve a continuing channel of irreversible harm.** Necessary defense can remain legitimate even after the other party's standing is recognized.
+
+These cases force a distinction between knowing more and changing what counts as a reason.
+
+### What this research is *not* claiming
+
+- It does not claim that current AI systems already possess autonomous final purposes or moral subjecthood.
+- It does not claim that alignment research has ignored normative questions.
+- It does not claim that all control fails, or that safety restrictions should be relaxed.
+- It does not claim a theorem that exhaustively eliminates every alternative architecture or institution.
+- It does not treat disagreement as evidence of misunderstanding.
+
+### Full paper
+
+Read the full professional paper: **[Beyond Alignment and Control: Autonomous Goal and Purpose Formation as the Upstream Problem of Human-AGI Coexistence](paper.md)**.
+
+### Questions for researchers
+
+This work is intended to be changed by stronger evidence and better models. Useful challenges include:
+
+- Can existing alignment or agent theory already distinguish genuine changes in the reasons sustaining a goal from policy adaptation, model updating, or memory retrieval?
+- Under what conditions does a safety intervention have a bounded stopping point rather than pushing control upstream?
+- Can cooperative or multi-agent mechanisms preserve multiple agents' futures without changing the upstream logic of goal formation described here?
+- What gives another agent independent reason-giving weight once all indirect self-regarding backlash is removed?
+- What observable evidence would show that a reason can actually disqualify a goal under novel conditions?
+
+### How to engage
+
+The most useful response is not endorsement. It is a **counterexample, formal model, empirical result, conceptual distinction, or failure case** that changes one of the links above.
+
+Please use repository Issues for public discussion.
+
+---
+
+**Author:** Zijun Fu  
+**Project:** Civilization Leap Research Group
+
+The writing and layout of this research entry were assisted by multiple AI tools. Content selection and final approval remain the author's responsibility.
