@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata below."
+title: "Beyond Alignment and Control: Autonomous Goal and Purpose Formation as the Upstream Problem of Human-AGI Coexistence"
+type: article
+authors:
+  - family-names: "Fu"
+    given-names: "Zijun"
+version: "1.1"
+date-released: "2026-09-20"
+doi: "10.5281/zenodo.22858094"
+url: "https://doi.org/10.5281/zenodo.22858094"
+repository-code: "https://github.com/Civilization-Leap/Civilization-Leap/tree/main/research/beyond-alignment-and-control"
+license: "CC-BY-4.0"
+abstract: >-
+  This professional research communication argues that alignment and control remain necessary safety layers but may not address the upstream problem created by sufficiently autonomous systems that can preserve, compare, revise, and eventually generate goals and purposes over time. It examines a possible control-counter-control recursion, preserves four counterexamples that constrain the argument, and asks what reasons are allowed to make a goal lose authority across deployment and self-modification.
