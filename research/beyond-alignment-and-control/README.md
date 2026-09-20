@@ -4,7 +4,9 @@
 
 **Author:** Zijun Fu  
 **Civilization Leap Research Group**  
-**Status:** Professional research communication draft, 20 September 2026
+**Status:** Professional research communication draft, 20 September 2026  
+**Version:** 1.1  
+**Permanent DOI:** https://doi.org/10.5281/zenodo.22858094
 
 ### The question
 
@@ -54,6 +56,12 @@ These cases force a distinction between knowing more and changing what counts as
 - It does not claim that all control fails, or that safety restrictions should be relaxed.
 - It does not claim a theorem that exhaustively eliminates every alternative architecture or institution.
 - It does not treat disagreement as evidence of misunderstanding.
+
+### Permanent archive and citation
+
+Zenodo record: **https://doi.org/10.5281/zenodo.22858094**
+
+The Zenodo record is the permanent citable snapshot of Professional English Edition V1.1. This GitHub directory remains the living research and discussion entry.
 
 ### Full paper
 
