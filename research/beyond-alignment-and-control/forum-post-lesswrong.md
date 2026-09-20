@@ -2,6 +2,8 @@
 
 **Author: Zijun Fu | Civilization Leap Research Group**
 
+**Permanent DOI:** https://doi.org/10.5281/zenodo.22858094
+
 Alignment asks whether an AI system reliably pursues an intended objective. Control asks which capabilities, permissions, and actions must remain interruptible or bounded.
 
 Both are necessary.
@@ -285,6 +287,8 @@ What I am arguing is that, under those conditions, **the long-run human-AGI rela
 If that is wrong, the most valuable contribution would be to show exactly where the causal chain breaks.
 
 ---
+
+**Permanent archived version:** https://doi.org/10.5281/zenodo.22858094
 
 **Full professional paper:** https://github.com/Civilization-Leap/Civilization-Leap/blob/main/research/beyond-alignment-and-control/paper.md
 
