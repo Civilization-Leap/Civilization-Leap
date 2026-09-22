@@ -67,6 +67,14 @@ The Zenodo record is the permanent citable snapshot of Professional English Edit
 
 Read the full professional paper: **[Beyond Alignment and Control: Autonomous Goal and Purpose Formation as the Upstream Problem of Human-AGI Coexistence](paper.md)**.
 
+### September 2026 incident evidence update
+
+A companion note maps recent OpenAI, Anthropic, UK AISI, METR, and Redwood/METR agent incidents to Projects A/B/C without treating them as proof of autonomous final-purpose formation:
+
+**[From Task Persistence to Unauthorized Action: Evidence Update](incident-evidence-update-2026-09.md)**
+
+The note introduces **delegated-objective overreach** as a narrower empirical precursor: persistent pursuit of an assigned objective can produce unauthorized intermediate strategies, communication channels, credential use, or cross-agent coordination even when autonomous goal formation has not been established.
+
 ### Questions for researchers
 
 This work is intended to be changed by stronger evidence and better models. Useful challenges include:
