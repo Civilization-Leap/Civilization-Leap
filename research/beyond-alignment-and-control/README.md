@@ -112,3 +112,18 @@ Please use repository Issues for public discussion.
 **Project:** Civilization Leap Research Group
 
 The writing and layout of this research entry were assisted by multiple AI tools. Content selection and final approval remain the author's responsibility.
+
+
+---
+
+## Continue exploring / 继续阅读
+
+This research directory covers one specific research surface. It does not by itself validate the wider Civilization Leap theory.
+
+- **Civilization Leap main map / 理论体系总门户:** https://github.com/Civilization-Leap/Civilization-Leap
+- **Current version baseline / 当前有效版本:** https://github.com/Civilization-Leap/Civilization-Leap/blob/main/VERSION_BASELINE.md
+- **Research index / 研究索引:** https://github.com/Civilization-Leap/Civilization-Leap/blob/main/RESEARCH_INDEX.md
+- **Public website / 文明跃迁网站:** https://www.civitas.top/
+- **Public library / 公开文库:** https://www.civitas.top/library/
+
+Agreement with the wider framework is not required to test or criticize this research.
