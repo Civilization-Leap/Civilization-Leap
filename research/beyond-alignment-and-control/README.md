@@ -75,6 +75,21 @@ A companion note maps recent OpenAI, Anthropic, UK AISI, METR, and Redwood/METR 
 
 The note introduces **delegated-objective overreach** as a narrower empirical precursor: persistent pursuit of an assigned objective can produce unauthorized intermediate strategies, communication channels, credential use, or cross-agent coordination even when autonomous goal formation has not been established.
 
+### New falsification companion — V1.6
+
+The research now includes a narrower companion argument focused on **multiple starting points across repeated goal formation, direction accumulation, and terminal closure**.
+
+It makes the strongest claim explicit while also making the claim easier to falsify:
+
+- self-first does not imply immediate destruction, but the current hypothesis is that its fully unfolded terminal logic has no endogenous non-closure stopping condition if the starting-point logic never changes;
+- altruism-first self-interest does not guarantee survival; it claims only that continued coexistence is not closed by the goal-generation logic itself;
+- two concrete architectures are explicitly placed **outside N**, so a successful alternative cannot be reclassified into the theory after the fact;
+- the requested counterexample is a stable, long-run, multi-agent, self-revising **non-N** architecture with an endogenous non-closure stopping condition.
+
+**[Read V1.6: Multiple Starting Points, Direction, and End-State](multiple-starting-points-direction-end-state-v1.6.md)**
+
+The most valuable result is a mechanism that breaks this argument.
+
 ### Questions for researchers
 
 This work is intended to be changed by stronger evidence and better models. Useful challenges include:
