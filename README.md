@@ -30,7 +30,7 @@
 | 你是谁 / 你关心什么 | 建议入口 |
 |---|---|
 | 第一次接触文明跃迁 | [文明跃迁网站](https://www.civitas.top/) → [公众入口](https://www.civitas.top/public/) |
-| 想连续理解核心公众论证 | [十一问连续阅读地图](https://www.civitas.top/public/reading/ai-self-interest/map.html) |
+| 想连续理解核心公众论证 | [公众版 V1.2 完整阅读](https://www.civitas.top/public/reading/ai-self-interest/index.html) |
 | AI / AGI 安全研究者 | [Beyond Alignment and Control](research/beyond-alignment-and-control/) → [RESEARCH_INDEX.md](RESEARCH_INDEX.md) |
 | 想研究不可逆、纠错、退出、恢复 | [CI-001](https://github.com/Civilization-Leap/ci-001) |
 | 想研究人的高后果判断与后果提前显影 | [Human-COS Public Core](https://github.com/Civilization-Leap/human-cos-public-core) |
