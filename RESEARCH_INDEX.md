@@ -110,7 +110,7 @@ Public Library：https://www.civitas.top/library/
 
 ### 普通读者
 
-十一问连续阅读：https://www.civitas.top/public/reading/ai-self-interest/map.html
+公众版 V1.2 完整阅读：https://www.civitas.top/public/reading/ai-self-interest/index.html
 
 ### AI / AGI 研究者
 
