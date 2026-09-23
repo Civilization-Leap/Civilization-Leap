@@ -86,9 +86,9 @@ GitHub living entry：[research/beyond-alignment-and-control/](research/beyond-a
 
 当前公众论证与答疑版：**V1.2**
 
-状态：官网完整阅读已上线；十一问连续阅读主链 Q1—Q11 已形成；第一轮公众传播 COMPLETE；真实反馈独立监测，不以平台数据冒充理论验证。
+状态：官网完整阅读已上线；十一问内容主链 Q1—Q11 已形成；第一轮公众传播 COMPLETE；十一问独立阅读地图源码已准备、待网站更新后上线；真实反馈独立监测，不以平台数据冒充理论验证。
 
-阅读地图：https://www.civitas.top/public/reading/ai-self-interest/map.html
+当前在线完整阅读：https://www.civitas.top/public/reading/ai-self-interest/index.html
 
 ---
 
