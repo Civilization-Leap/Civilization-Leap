@@ -61,3 +61,13 @@
 3. 不要把第三方受限内容、未获许可的私人材料或机密信息提交到公开仓库。
 
 各子仓库可能采用不同许可，请以当地 LICENSE / rights statement 为准。
+
+---
+
+## 6. Existing repository contribution terms / 既有贡献条款
+
+本次主门户重构不改变原仓库已经声明的贡献许可义务。原有条款继续保留：
+
+1. **License Grant**: Your contributions will be licensed under the **Apache License, Version 2.0**.
+2. **Representation**: You represent that you have the legal right to grant the above license for each contribution.
+3. **Notice**: You agree to include a clear copyright notice in any substantial source file you modify or contribute, following the format specified in the LICENSE file.
