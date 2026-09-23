@@ -1,89 +1,191 @@
-# Civilization Leap: 为人类的“大过滤器”编写补丁
+# 文明跃迁 · Civilization Leap
 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
+## AGI时代的文明之路 / A Civilizational Path for the Age of AGI
 
-**从竞争到共生，从稀缺到丰裕，从恐惧到希望。**  
-“我们不是这艘飞船的乘客，我们是船员。” — R. Buckminster Fuller  
+> **存续是底线；生存无忧是第一目标；生活幸福、生命更有意义，是文明继续向前的方向。**
 
-## 文明跃迁：AI时代人类从底层逻辑向有益方向的转型框架  
-**作者**：ZhongXin Wang (@ZhongxinWang319)  
-**日期**：2026年1月19日  
+文明跃迁是一个面向 AGI 时代的开放理论与研究体系。它研究的不是“怎样让某一种制度永远正确”，而是：
 
-**人类正站在大过滤器前**  
-AGI/超级智能即将到来，工业-信息时代的所有假设（稀缺驱动增长、劳动=价值、线性进步）将被颠覆。  
-我们观察到的底层逻辑：  
-- **人类核心需求**从未变：安全、归属、意义、自主（马斯洛+存在主义）。  
-- **科技影响**：AI让认知/生产力指数级放大，但同时放大**价值红移**（从物质→贡献→存在意义）、**社会熵增**（信息过载、信任崩塌、意义真空）。  
-- **有益方向预判**：必须构建**反脆弱**的文明协议，让**个体理性自利**自然对齐**文明长期存续**。  
+> **当智能、能力与自主性持续增长，人类与未来智能怎样避免把局部成功递归放大为不可逆后果，并保留纠错、退出、恢复、重新选择与共同继续展开的可能。**
 
-**文明跃迁核心框架（3大支柱）**  
-1. **价值重定义**：从“劳动价值”转向“贡献证明”（Proof-of-Contribution）：任何对减少社会熵、增加集体智慧/可持续性的行为都可量化、可追踪、可奖励（非货币UBS+声誉+资源）。  
-2. **制度前语言**：开源协议层（类似TCP/IP for civilization）：包括可观测性（透明贡献链）、守护锚点（人类在环监督+多中心治理）、熵减机制（AI辅助圆梦园/本地化生态闭环）。  
-3. **落地实验**：从小规模“微文明”起步——圆梦园（Dream Garden）：AI+社区+可持续资源，实现后稀缺时代的意义生产（艺术、探索、关系而非消费）。目标：生存概率从<1%提升到可持续。  
+这里不是一个世界政府方案，也不是一个统一价值清单，更不是一个把全部社会问题压缩成单一算法的软件操作系统。
 
-**我的承诺**（作为发起人）：  
-我将持续把关方向逻辑，确保框架有益人类而非加速灭绝。欢迎认同者加入，共建开源协议。  
-联系：X @ZhongxinWang319 或仓库Issue。  
-
-**一句话呼吁**：  
-如果AI让大部分工作消失，我们的价值从哪里来？让我们一起定义下一个文明的底层OS。  
+这个主仓库的作用是：展示文明跃迁理论体系的现行结构；指向各专业研究子仓库与公开文稿；说明当前有效版本与冻结边界；为研究者、公众、工程人员与治理者提供不同阅读入口；并作为各子仓库的**返回总体系 / 继续阅读目的地**。
 
 ---
 
-## 项目愿景  
-Civilization Leap 不是一个操作系统，而是一个**开源文明级治理协议**。它旨在帮助人类跨越“大过滤器”（Great Filter），构建一个抗脆弱的社会技术系统，让理性自利自然导向文明长期存续。AI 被视为“放大器”，而非取代者。我们从底层逻辑出发，预判科技影响，并判断有益方向。
+## 30秒理解这套体系
 
-## 架构概述（三卷）  
-### 上卷：思想原章（哲学基础）  
-- 价值红移理论：AI接管功能价值，人类转向情感/意义维度。  
-- 贡献证明（Proof of Contribution）：取代 PoW/PoS 的新共识机制。  
+1. **人为什么必须改变？** 当 AI / AGI 让能力、生产与决策迅速扩张，什么仍然构成人的价值、文明的底线与长期存续条件？
+2. **目标为什么值得追求？** 对齐已经形成的目标还不够。一个目标为什么首先取得资格、为什么继续值得追求、什么理由能够修改或取消它？
+3. **如何避免不可逆结果？** 能否在行动仍可修正之前，让后果、利益相关方、退出/恢复空间和不可逆阈值提前显影？
+4. **新的文明怎样运行、生活与形成？** 文明跃迁不只讨论风险，也研究生存无忧、生活幸福、意义生成、竞争合作与未来社会运行结构。
 
-### 中卷：制度前语言（技术协议）  
-- 可观测性协议：内容溯源 + 零知识证明。  
-- 责任锚点：每个AI系统绑定自然人“监护人”。  
-- 社会熵减算法：量化行为对系统稳定影响。  
+更完整的体系关系见 **[PROJECT_MAP.md](PROJECT_MAP.md)**。
 
-### 下卷：文明白皮书（实施方案）  
-- 全民基本服务（UBS）：实物保障取代 UBI。  
-- 行星级 ERP：全球资源动态调度。  
-- 圆梦园（Dream Garden）：基于“意义撮合”的社交网络。  
+---
 
-## 目录结构  civilization-os/
-├── core-protocol/     # 核心协议（规划中仓库：https://github.com/CivilizationOS/core-protocol -- 欢迎贡献创建）
-├── applications/      # 应用层（e.g. basic-services, dream-garden -- 当前试点：https://github.com/Civilization-Leap/Xiongan-Civilization-OS）
-├── simulations/       # 模拟器（e.g. fermi-paradox, transition-path）
-├── research/          # 研究文献
-└── docs/              # 文档（白皮书、模块描述）
+## 从哪里开始读
 
+| 你是谁 / 你关心什么 | 建议入口 |
+|---|---|
+| 第一次接触文明跃迁 | [文明跃迁网站](https://www.civitas.top/) → [公众入口](https://www.civitas.top/public/) |
+| 想连续理解核心公众论证 | [十一问连续阅读地图](https://www.civitas.top/public/reading/ai-self-interest/map.html) |
+| AI / AGI 安全研究者 | [Beyond Alignment and Control](research/beyond-alignment-and-control/) → [RESEARCH_INDEX.md](RESEARCH_INDEX.md) |
+| 想研究不可逆、纠错、退出、恢复 | [CI-001](https://github.com/Civilization-Leap/ci-001) |
+| 想研究人的高后果判断与后果提前显影 | [Human-COS Public Core](https://github.com/Civilization-Leap/human-cos-public-core) |
+| 想直接测试 Human-COS 当前公开 Mock 链 | [Human-COS FFT-1 Public Mock Trial](https://github.com/Civilization-Leap/human-cos-fft1-trial) |
+| 想研究竞争—合作机制 | [Computable Competition–Cooperation Mechanisms](https://github.com/Civilization-Leap/computable-cooperation-mechanisms) |
+| 想研究意义、意识与文明的更深层问题 | [Emergent Meaning Cosmology](https://github.com/Civilization-Leap/Emergent-Meaning-Cosmology) |
+| 想看全部公开文稿 | [文明跃迁公开文库](https://www.civitas.top/library/) |
+| 想确认哪个版本当前有效 | [VERSION_BASELINE.md](VERSION_BASELINE.md) |
 
-## 安装与运行  
-### 先决条件  
-- 人类文明 v2025.0+  
-- 开放心态  
+---
 
-### 步骤  
-1. 克隆仓库：`git clone https://github.com/Civilization-Leap/Civilization-Leap.git`  
-2. 进入目录：`cd Civilization-Leap`  
-3. 运行模拟器示例（规划中，当前为伪代码）：  
-   ```python
-   from civilizationos.simulator import TransitionSimulator  # 未来模块
-   sim = TransitionSimulator(population=8_000_000_000, ai_level="AGI", entropy_reduction=True)
-   result = sim.run(scenarios=["base", "leap"])
-   print(f"文明存活概率: {result.survival_probability:.1%}")
-（注：核心协议开发中，欢迎PR贡献实际实现。）  贡献指南详见 CONTRIBUTING.md 和 COLLABORATION.md。  入门任务：从 MODULES.md 选模块，参与哲学讨论/白皮书修订/微型实验。  
-协作原则：开源、透明、基于功绩。优先执行型伙伴（开发者/社区经理），我作为发起人只把关方向。  
-Good first issues：规划中（欢迎创建）。
+## 核心著作
 
-许可证代码：Apache License 2.0  
-理论框架：Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)  
-实施经验：文明共享许可证（需共享给全人类）
+### 《文明跃迁》五卷书
 
-联系与社区X：@ZhongxinWang319
-  
-讨论：仓库 Issues 或规划中论坛/Discord（欢迎伙伴建群）。
+1. **《被需要的文明》**
+2. **《制度前语言》**
+3. **《文明跃迁白皮书》**
+4. **《文明永续》**
+5. **《意义涌现》**
 
-感谢你的关注与贡献！让我们共同编写文明的下一个章节。
+五卷主要回答：**为什么必须改变，以及哪些边界不能失守。**
 
+### 《活的文明》三部曲
 
-## License
-  Licensed under the Apache License, Version 2.0. Copyright 2024 [ZhongXinWang].
+1. **《未来文明运行原理》**
+2. **《未来文明的真实生活》**
+3. **《新文明的形成》**
+
+三卷主要回答：**新的文明如何运行、如何生活、如何形成。**
+
+五卷与三卷互为不同阅读入口，不互相替代。
+
+---
+
+## 当前公开研究项目
+
+### AGI 目标、目的与伦理生成
+
+**问题：** 如果未来系统能够保存、比较、修改并生成目标，那么什么使一个目标取得权威？什么理由能让它被保存、修改、取消或替换？
+
+- [Beyond Alignment and Control](research/beyond-alignment-and-control/)
+- Professional English Edition V1.1 DOI: https://doi.org/10.5281/zenodo.22858094
+
+### CI-001 · Irreversible Closure Criterion
+
+**问题：** 一个受影响主体是否仍然保有有效的纠正、退出/拒绝与恢复通道？
+
+- [CI-001 public repository](https://github.com/Civilization-Leap/ci-001)
+- Stable: **V1.4**
+- Review track: **V1.5-RC2**
+
+CI-001 是独立审计工具，不是人格评分、道德裁判或文明跃迁理论的自动验证器。
+
+### Human-COS
+
+**问题：** 能否在人或 AI 的行动仍可修正、后果尚未不可逆之前，让目标和行动可能带来的结果及其因果路径提前显现？
+
+- [Human-COS Public Core](https://github.com/Civilization-Leap/human-cos-public-core)
+- [Human-COS FFT-1 Public Mock Trial](https://github.com/Civilization-Leap/human-cos-fft1-trial)
+
+公开制品目前用于可复现性、边界和失败路径测试，不宣称已经证明真实世界有效性。
+
+### Competition–Cooperation Mechanisms
+
+**问题：** 谁获益、谁承担代价、谁没有坐在桌前、什么不能被交易、什么仍是未知？
+
+- [Computable Competition–Cooperation Mechanisms](https://github.com/Civilization-Leap/computable-cooperation-mechanisms)
+- Public release: **v0.1.1**
+- DOI: https://doi.org/10.5281/zenodo.22656544
+
+### Emergent Meaning Cosmology
+
+**问题：** 意义如何从存在、关系、意识与文明中涌现？
+
+- [Emergent Meaning Cosmology](https://github.com/Civilization-Leap/Emergent-Meaning-Cosmology)
+- DOI: https://doi.org/10.5281/zenodo.18833846
+
+该仓库是文明跃迁意义研究的一条独立深研线，不代表整个理论体系。
+
+---
+
+## 当前版本与治理纪律
+
+这个工程是连续理论—研究—工程体系，不采用“看到数字更大就自动认为更新”的简单规则。
+
+请先阅读：
+
+- **[VERSION_BASELINE.md](VERSION_BASELINE.md)** — 当前有效基线与冻结关系
+- **[PROJECT_MAP.md](PROJECT_MAP.md)** — 各研究线关系与公开入口
+- **[RESEARCH_INDEX.md](RESEARCH_INDEX.md)** — 按问题寻找研究
+- **[CONTINUE_READING_PROTOCOL.md](CONTINUE_READING_PROTOCOL.md)** — 子仓库返回总体系的统一协议
+
+基本规则：
+
+> **Canonical / MASTER / FROZEN / 当前权威稿优先。旧版本用于追溯，不得反向覆盖现行基线。**
+
+特别是 **AGI-COS 不存在单一最新版**；它采用跨版本不变量与多轨道受控版本族。
+
+---
+
+## 如何参与：不是先认同，而是先把问题说清
+
+文明跃迁不需要一个只会重复结论的支持者社区。
+
+最有价值的参与包括：提出真正能推翻命题的反例；指出已有研究已经解决的问题；给出形式化模型；给出实验或现实失败案例；发现证据边界、越权、误阻或不可逆风险；提供独立实现与复现；改善公众解释而不牺牲理论准确性。
+
+请见 **[CONTRIBUTING.md](CONTRIBUTING.md)** 与 **[COLLABORATION.md](COLLABORATION.md)**。
+
+> **Agreement is not a contribution requirement.**
+
+---
+
+## 网站、文库与讨论
+
+- 官网：https://www.civitas.top/
+- 公开文库：https://www.civitas.top/library/
+- 学术入口：https://www.civitas.top/academic/
+- 公众入口：https://www.civitas.top/public/
+- 读者与公开讨论：https://www.civitas.top/public/dialogue/
+- GitHub 公众讨论：https://github.com/Civilization-Leap/Civilization-Leap/issues
+
+---
+
+## 关于早期仓库内容
+
+本仓库创建于体系早期。Git 历史中保留过“文明 OS”“大过滤器”“社会熵减”“行星级 ERP”“圆梦园”等早期表达与工程设想。
+
+这些历史记录可用于追溯思想演化，但**不自动代表当前文明跃迁理论体系的有效基线**。
+
+例如：“社会熵减”不再作为文明跃迁理论的核心解释轴；“ERP”因既有语义过强，不再作为现行机制名称；早期城市试验与软件架构不等于当前理论已要求现实部署。
+
+请以 **[VERSION_BASELINE.md](VERSION_BASELINE.md)** 与各项目自己的现行 README / release 状态为准。
+
+---
+
+## 作者、AI使用与许可
+
+**作者：子君赋**  
+**出品：文明跃迁研究组**
+
+不同文稿与工程中，AI 工具可能参与结构整理、代码实现、文本校对、文献核验或测试；具体披露以相应文稿与仓库说明为准。理论命题、取舍与最终责任由作者承担。
+
+本主仓库保留现有 **Apache License 2.0**。各子仓库、文稿、PDF、表单及研究制品可能采用不同许可；请以各自文件中的 LICENSE / rights statement 为准，不要从主仓库许可推定所有理论文本的许可。
+
+---
+
+## Continue exploring / 继续阅读
+
+这个仓库是文明跃迁体系的 **GitHub 总门户**，不是全部正文。
+
+- [项目地图 / Project Map](PROJECT_MAP.md)
+- [研究索引 / Research Index](RESEARCH_INDEX.md)
+- [当前有效版本 / Version Baseline](VERSION_BASELINE.md)
+- [文明跃迁网站](https://www.civitas.top/)
+- [公开文库](https://www.civitas.top/library/)
+
+**从一个具体问题进入；需要更大的上下文时，再回到这里。**
