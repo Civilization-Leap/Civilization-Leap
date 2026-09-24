@@ -23,6 +23,15 @@
 
 优先欢迎：counterexample、formal model、empirical result、prior work，以及任何能给控制递归提供内生停止条件的机制。
 
+### Open research challenge / 开放研究挑战
+
+- **Main discussion / 主论文讨论：** https://github.com/Civilization-Leap/Civilization-Leap/issues/3
+- **Open Research Challenge & Question Pool：** https://github.com/Civilization-Leap/Civilization-Leap/issues/4
+- **V1.6 falsifiable companion：** [multiple-starting-points-direction-end-state-v1.6.md](research/beyond-alignment-and-control/multiple-starting-points-direction-end-state-v1.6.md)
+- **Contribution registry：** [CONTRIBUTIONS.md](research/beyond-alignment-and-control/CONTRIBUTIONS.md)
+
+Issue #4 当前提供 Q01—Q12：从 self-modification、goal authority、corrigibility、commitment devices、safe Pareto improvements、program equilibrium、control stopping semantics，到第三条 starting-point logic。参与者不需要解决整个理论；一个有效的第二路径、一个断裂因果链、一个已有定理或一个可区分实验，都属于实质贡献。
+
 ---
 
 ## 2. 一个目标为什么有资格被授权、强化或长期保留？
@@ -34,7 +43,9 @@
 - 理论母版：《从人类文明逻辑到 AGI：目标、目的与伦理生成》V1.1 FROZEN
 - 学术版：《AGI真正的问题，不只是如何控制，而是它应该追求什么——从目标对齐到目的生成》V1.1
 
-专业 GitHub 独立仓 agi-purpose-genesis 正在准备。正式上线前不要把它描述成已经存在的公开仓库。
+当前专业互动主场先保持在本主仓库的 Beyond Alignment and Control 研究目录、Issue #3、Issue #4 与 Contribution Registry，避免把正在形成的反例、问题池和归因记录拆散。
+
+独立的 `agi-purpose-genesis` 仓库包可以保留为未来分离论文、代码、基准或专门实验资产的候选结构；在确有独立治理需要之前，不作为当前必需入口。
 
 研究对象包括 Goal、Purpose、Ethics、Generative logic、Purpose qualification、Human-led sociotechnical selection、Semi-autonomous transition 与 High-autonomy self-revision。
 
