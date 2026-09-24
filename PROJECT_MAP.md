@@ -52,9 +52,15 @@ Permanent DOI：https://doi.org/10.5281/zenodo.22858094
 
 ### Purpose Genesis / Purpose Qualification
 
-独立专业学术仓库 agi-purpose-genesis 正在准备。
+当前专业互动与证伪入口先保持在主仓库内：
 
-在专仓正式上线前，专业入口仍以 research/beyond-alignment-and-control/ 与公开文库为准。不要引用一个尚未创建的仓库 URL 作为已上线资源。
+- Main research entry: [research/beyond-alignment-and-control/](research/beyond-alignment-and-control/)
+- Main discussion: https://github.com/Civilization-Leap/Civilization-Leap/issues/3
+- Open Research Challenge & Question Pool: https://github.com/Civilization-Leap/Civilization-Leap/issues/4
+- V1.6: [Multiple Starting Points, Direction, and End-State](research/beyond-alignment-and-control/multiple-starting-points-direction-end-state-v1.6.md)
+- Contribution Registry: [CONTRIBUTIONS.md](research/beyond-alignment-and-control/CONTRIBUTIONS.md)
+
+原计划的独立 `agi-purpose-genesis` 仓库包保留为未来需要独立论文/代码/实验治理时的候选结构；当前不为“仓库分离”本身拆散正在形成的讨论、问题池与贡献归因记录。
 
 ---
 
