@@ -74,6 +74,11 @@
 
 - [Beyond Alignment and Control](research/beyond-alignment-and-control/)
 - Professional English Edition V1.1 DOI: https://doi.org/10.5281/zenodo.22858094
+- [V1.6 — Multiple Starting Points, Direction, and End-State](research/beyond-alignment-and-control/multiple-starting-points-direction-end-state-v1.6.md)
+- [Open Research Challenge & Question Pool — Issue #4](https://github.com/Civilization-Leap/Civilization-Leap/issues/4)
+- [Contribution Registry](research/beyond-alignment-and-control/CONTRIBUTIONS.md)
+
+**专业互动结构：** Issue #3 承接主论文的一般讨论；Issue #4 承接 V1.6 的证伪挑战、开放问题池与“第二条路径”寻找；Contribution Registry 用于公开归因和记录外部工作是否改变 V1.6。
 
 ### CI-001 · Irreversible Closure Criterion
 

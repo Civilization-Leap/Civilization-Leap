@@ -80,6 +80,16 @@ Permanent DOI：https://doi.org/10.5281/zenodo.22858094
 
 GitHub living entry：[research/beyond-alignment-and-control/](research/beyond-alignment-and-control/)
 
+### V1.6 falsifiable companion
+
+**Multiple Starting Points, Direction, and End-State V1.6**
+
+地位：面向“唯一方向 / 第二条路径”问题的开放可证伪伴随论证，不替代 V1.1 主研究入口，也不覆盖理论母版 V1.1 FROZEN。
+
+- V1.6：[multiple-starting-points-direction-end-state-v1.6.md](research/beyond-alignment-and-control/multiple-starting-points-direction-end-state-v1.6.md)
+- Open Research Challenge & Question Pool：https://github.com/Civilization-Leap/Civilization-Leap/issues/4
+- Contribution Registry：[CONTRIBUTIONS.md](research/beyond-alignment-and-control/CONTRIBUTIONS.md)
+
 ---
 
 ## 5. 公众版《当AI越来越强，我们怎样为自己打算？》
