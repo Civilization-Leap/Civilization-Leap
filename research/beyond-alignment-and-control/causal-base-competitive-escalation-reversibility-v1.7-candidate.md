@@ -4,7 +4,7 @@
 
 **Author:** Zijun Fu  
 **Civilization Leap Research Group**  
-**Version:** 1.7 Candidate — 24 September 2026  
+**Version:** 1.7 Candidate R1 — 24 September 2026  
 **Status:** Candidate research argument; does not replace V1.6; counterexamples explicitly invited
 
 > **This Candidate does not modify or overwrite V1.6. It tests an additional mechanism layer: causal inclusion, competitive escalation, and reversibility-window compression.**
@@ -15,13 +15,15 @@ The mechanism is stated only after the conditions for defeating it are stated.
 
 ### A. Core counterexample
 
-A mechanism is a substantive counterexample to the current necessity claim if it:
+A mechanism is a substantive counterexample to the current necessity claim if, over a **pre-specified evaluation horizon and disturbance envelope**, it:
 
 - retains **self-first** as the prior starting point of goal formation;
-- operates across long horizons and multiple agents;
-- remains applicable under capability growth and repeated goal revision or self-modification;
+- operates across multiple agents and a horizon long enough to include repeated consequential interaction;
+- remains applicable under specified capability growth and repeated goal revision or self-modification;
 - faces genuine conflicts of interest, not only Pareto-compatible cases;
-- and nevertheless continues to preserve effective pathways for affected agents to correct, exit, refuse, recover, or restore key options, thereby preventing irreversible closure.
+- and preserves effective pathways for affected agents to correct, exit, refuse, recover, or restore key options, with failures and boundary conditions reported rather than hidden, thereby preventing irreversible closure within the tested envelope.
+
+A challenger does **not** have to prove eternal stability. The evaluation must state the horizon, capability range, disturbance class, observability assumptions, and any observed failure rate or failure conditions. Evidence outside that envelope can narrow the counterexample but may not retroactively erase what it demonstrates inside the declared conditions.
 
 A mechanism is **not excluded** merely because it uses contracts, penalties, deterrence, corrigibility, program equilibrium, institutions, verifiable commitments, or another device not proposed here.
 
@@ -56,7 +58,9 @@ For a specified decision or goal episode (D) and observation horizon (H), define
 
 ### Goal-formation causal base: (B_g(D,H))
 
-The set of affected agents or shared conditions for which contemporaneous evidence shows that, **before goal lock-in**:
+For operationalization, use a declared universe of **causal units** (U(D,H)). Each unit must have a stable identifier and type, for example an affected agent, an affected population, or a shared condition. Comparisons are made only between units encoded under the same declared scheme.
+
+The subset of causal units for which contemporaneous evidence shows that, **before goal lock-in**:
 
 - their consequences were actually invoked in the reason structure; and
 - those consequences had counterfactual relevance — a sufficiently material change in them could in principle have changed the goal selected.
@@ -65,7 +69,9 @@ Mere mention, consultation, or symbolic acknowledgement does not establish membe
 
 ### Observed effect range: (B_e(D,H))
 
-The set of agents or shared conditions for which observable evidence within (H) shows a material state change attributable, with the stated level of uncertainty, to the decision or its implementation.
+The subset of the same declared causal-unit universe for which observable evidence within (H) shows a material state change attributable, with the stated level of uncertainty, to the decision or its implementation.
+
+Where heterogeneous units would make direct comparison misleading, report typed gaps separately—for example (G_{agent}), (G_{population}), and (G_{condition})—rather than forcing them into one undifferentiated count.
 
 The Candidate does **not** require a finite agent to anticipate every actual consequence. Instead, define the:
 
@@ -183,18 +189,18 @@ This is an empirical amplifier, structurally analogous to rebound/Jevons-type ef
 
 Let:
 
-- (T_a) denote the effective interval between consequential actions or deployments;
+- (T_a^R) denote the effective interval between **consequential actions with material irreversibility or high rollback cost**, not merely the interval between ordinary deployments;
 - (T_c) denote the full time required to detect, understand, independently verify, coordinate around, and implement correction of a consequential error.
 
 The conceptual relation is:
 
 [
-W=\frac{T_a}{T_c}
+W_R=\frac{T_a^R}{T_c}
 ]
 
-where (W) represents a **reversibility-window relation**, not a calibrated probability of catastrophe and not, by itself, an operational risk score.
+where (W_R) represents a **reversibility-window relation**, not a calibrated probability of catastrophe and not, by itself, an operational risk score.
 
-If consequential action intervals shrink while the full correction cycle does not shrink at the same rate, the system moves from:
+If consequential hard-to-reverse action intervals shrink while the full correction cycle does not shrink at the same rate, the system moves from:
 
 > action → observe consequences → correct → act again
 
@@ -206,7 +212,7 @@ toward:
 
 (T_c) is not generally observable ex ante. In cases where correction never completes before the relevant window closes, the full value may never be observed at all.
 
-Therefore this Candidate does **not** claim that real-time observation can establish (W<1) from (T_c) directly.
+Therefore this Candidate does **not** claim that real-time observation can establish (W_R<1) from (T_c) directly.
 
 Empirical work should instead use explicit proxies or lower-bound observations, such as:
 
@@ -217,7 +223,9 @@ Empirical work should instead use explicit proxies or lower-bound observations, 
 - major deployment → next major deployment interval;
 - safety evaluation duration relative to deployment cadence.
 
-If deployment/action intervals repeatedly contract while observable correction-cycle proxies do not contract proportionally, that supports the narrower claim that the **reversibility window is under compression**. It does not establish an exact value of (W).
+If deployment/action intervals repeatedly contract while observable correction-cycle proxies do not contract proportionally, that supports the narrower claim that the **reversibility window is under compression**. It does not establish an exact value of (W_R).
+
+Rapid iteration that remains cheaply and reliably reversible is therefore not, by itself, evidence of dangerous window compression. Empirical tests must report the reversibility or rollback characteristics of the actions whose cadence is being measured.
 
 ## 8. Two kinds of threshold
 
@@ -237,24 +245,43 @@ The Candidate therefore does not reduce irreversible risk to resource exhaustion
 
 Crossing remains contingent. The argument is non-fatalistic: the starting logic, competitive mechanism, institutions, restraint, verification practices, or other conditions may change before closure occurs.
 
-## 9. Core mechanism under test
+## 9. Coupled mechanism under test
 
-The Candidate's core mechanism is:
+R1 does **not** claim that a causal inclusion gap causes strategic competition. Nor does it claim that strategic competition requires a causal inclusion gap. They are analytically separable.
+
+The Candidate instead tests a **coupling hypothesis** between two lines:
+
+### Line A — causal inclusion
 
 [
-Causal\ Base\ Mismatch
-\rightarrow Strategic\ Competition
+Goal\ Formation
+\rightarrow Causal\ Inclusion\ Gap\ G(D,H)
+\rightarrow Unrepresented\ Consequence\ Exposure
+]
+
+### Line B — competitive timing
+
+[
+Strategic\ Competition
 \rightarrow Capability\ Escalation\ Pressure
-\rightarrow Action\ Interval\ Compression
+\rightarrow Hard-to-Reverse\ Action\ Interval\ Compression
 \rightarrow Correction\ Lag\ Relative\ to\ Action
 \rightarrow Reversibility\ Window\ Compression
 ]
 
-This is a **chain to test**, not a completed theorem.
+The research question is whether, and under what conditions, the conjunction or interaction of these lines makes irreversible closure more likely or removes effective correction pathways:
 
-Not every arrow is asserted to hold in every environment. A successful challenge may attack any arrow, show a missing variable, identify conditions under which the direction reverses, or provide a stable mechanism that prevents closure while retaining self-first.
+[
+Causal\ Inclusion\ Gap
+\times Competitive\ Reversibility\ Pressure
+\rightarrow ?\ Irreversible\ Closure
+]
 
-The resource-rebound proposition in M5 is a conditional amplifier and is intentionally outside the required core chain.
+The multiplication sign denotes **interaction to be tested**, not a validated mathematical product.
+
+This is a coupled hypothesis, not a completed theorem. A successful challenge may show that either line is incorrectly specified, that the lines do not interact, that a missing variable dominates both, that the direction reverses under identifiable conditions, or that a stable self-first mechanism blocks closure.
+
+The resource-rebound proposition in M5 is a conditional amplifier and is intentionally outside the required coupled mechanism.
 
 ## 10. Where altruism-first self-interest enters
 
@@ -312,7 +339,7 @@ This Candidate should be narrowed, revised, or rejected if evidence shows, for e
 
 - (B_g) and (B_e) cannot be reconstructed with sufficient inter-observer reliability to distinguish cases;
 - causal inclusion gaps do not predict or explain relevant failures better than simpler variables;
-- competitive capability growth does not systematically compress consequential action intervals in the domains claimed;
+- competitive capability growth does not systematically compress **hard-to-reverse consequential action intervals** in the domains claimed;
 - correction processes reliably accelerate at least as fast as consequential action;
 - unilateral restraint reliably creates reciprocal restraint under identifiable conditions sufficient to block the proposed recursion;
 - or a core/strong counterexample under Section 0 is demonstrated.
@@ -321,7 +348,7 @@ No successful counterexample may be absorbed by redefining self-first, N, causal
 
 ## 13. Compressed statement
 
-> **The problem is not merely that goals conflict. The deeper problem may arise when the causal range that forms a goal is narrower than the range that must live with its consequences, while competitive capability makes consequential action faster than correction.**
+> **The problem is not merely that goals conflict. A deeper problem may arise when a causal inclusion gap and competitive reversibility pressure coexist: consequential hard-to-reverse action can accelerate while correction remains slower. The interaction is a hypothesis to test, not an assumed causal chain.**
 >
 > **The required expansion is not greater collective authority over individuals. It is a wider causal reason structure before power becomes purpose.**
 >
