@@ -104,7 +104,14 @@ This work is intended to be changed by stronger evidence and better models. Usef
 
 The most useful response is not endorsement. It is a **counterexample, formal model, empirical result, conceptual distinction, or failure case** that changes one of the links above.
 
-Please use repository Issues for public discussion.
+Use the interaction layer that matches your contribution:
+
+- **Main paper discussion — Issue #3:** https://github.com/Civilization-Leap/Civilization-Leap/issues/3
+- **Open Research Challenge & Question Pool — Issue #4:** https://github.com/Civilization-Leap/Civilization-Leap/issues/4
+- **V1.6 falsifiable companion:** [Multiple Starting Points, Direction, and End-State](multiple-starting-points-direction-end-state-v1.6.md)
+- **Contribution registry:** [CONTRIBUTIONS.md](CONTRIBUTIONS.md)
+
+Issue #4 explicitly invites a second path, a broken causal link, a boundary condition, a discriminating experiment, or prior work that already answers one of Q01—Q12. A successful counterexample is recorded as a research contribution rather than reclassified to protect the framework.
 
 ---
 
